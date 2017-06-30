@@ -32,7 +32,6 @@
     }
 
     var $parent = $(selector === '#' ? [] : selector)
-
     if (e) e.preventDefault()
 
     if (!$parent.length) {

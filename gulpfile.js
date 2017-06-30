@@ -79,7 +79,7 @@ gulp.task('watch', function () {
     // 监听 images
     gulp.watch('src/img/**/*.{png,jpg,gif,svg}', ['img']);
     // 监听 js
-    gulp.watch('src/js/*.js', ['js']);
+    gulp.watch('src/js/**/*.js', ['js']);
 });
 
 gulp.task('default', ['html', 'img', 'css', 'js', 'fonts', 'webserver', 'watch']);
